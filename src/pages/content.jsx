@@ -7,14 +7,15 @@ export class Content extends Component {
       <div>
         <section className="hero body-font bg-purple-main">
           <div className="container mx-auto flex md:flex-row flex-col items-center px-5 py-8 lg:px-5 lg:py-32">
-            <div className="-mx-4 mt-auto mb-auto flex flex-wrap content-start sm:w-2/3 sm:pr-10 lg:w-1/2">
-              <div className="mb-6 w-full px-4 sm:p-4 md:px-8 lg:pl-8 lg:text-left">
-                <h1 className="title-font mx-auto mb-2 text-3xl font-extrabold text-purple-title sm:text-left lg:text-5xl">A uniquely human NFT</h1>
-                <p className="mt-6 font-normal text-black text-left text-sm lg:text-justify lg:text-xl">
+            <div className="-mx-4 mt-auto mb-auto flex flex-wrap content-start lg:w-1/2">
+              <div className="mb-6 w-full px-4 sm:p-4 lg:pl-8 lg:text-left">
+                <h1 className="title-font mx-auto mb-2 text-5xl font-extrabold text-purple-title text-center lg:text-left lg:text-6xl">A uniquely human NFT</h1>
+                <h2 className="title-font mx-auto mb-2 text-lg font-extrabold text-black/80 text-center lg:text-left lg:text-2xl">Launching June/July</h2>
+                <p className="mt-6 font-normal text-black text-left text-base lg:text-justify lg:text-xl">
                   Time is money, and there never seems to be enough of either. NFT PA is a new solution that can help save your time-wasting woes. This revolutionary service provides holders of the NFT PA access to a pool of talented assistants from
                   underserved communities ready to do the tasks you don't have time to do.
                 </p>
-                <p className="mt-4 font-normal text-black text-left text-sm lg:text-justify lg:text-xl">
+                <p className="mt-4 font-normal text-black text-left text-base lg:text-justify lg:text-xl">
                   <span className="font-bold">Pocket Assistants (PA)</span> are fellow humans from marginalized communities who work on these tasks. From data entry to online research, Pocket Assistants can take care of it. So why waste another
                   minute?
                 </p>
@@ -28,9 +29,9 @@ export class Content extends Component {
         <section className="main-feature body-font bg-purple-main">
           <div className="container px-5 pt-16 pb-20 lg:pb-0 mx-auto">
             <div className="flex flex-col text-center w-full mb-20">
-              <h1 className="mx-8 mt-20 text-3xl font-extrabold text-purple-title lg:text-6xl lg:mx-52">Discover a new way of getting things done</h1>
+              <h1 className="mx-8 mt-20 text-3xl font-extrabold text-purple-title lg:text-5xl sm:mx-28">Discover new ways of getting things done.</h1>
               <p className="mt-4 lg:w-2/3 mx-auto leading-relaxed text-lg">
-                NFT-as-a-service. <br></br>The NFT is access key to the app. <br></br>No personal info required.
+                NFT-as-a-service. <br></br>NFT is access key to the app. <br></br>No personal info required.
               </p>
             </div>
 
@@ -70,8 +71,8 @@ export class Content extends Component {
           <div className="container mx-auto flex md:flex-row flex-col items-center px-5 py-8 lg:px-5 lg:py-32">
             <div className="-mx-4 mt-auto mb-auto flex flex-wrap content-start lg:w-1/2">
               <div className="mb-6 w-full px-4 sm:p-4 md:px-8 lg:pl-8 text-left">
-                <h1 className="mt-12 font-sans lg:text-left text-4xl font-bold text-center text-white-lt lg:px-0 lg:text-5xl">Help those in need and get your time back</h1>
-                <p className="mt-6 font-normal text-white sm:text-left text-sm lg:text-justify lg:text-xl">
+                <h1 className="mt-12 lg:text-left text-4xl font-bold text-center text-white-lt lg:px-0 lg:text-5xl">Help those in need and get your time back</h1>
+                <p className="mt-6 font-normal text-white sm:text-left text-base lg:text-justify lg:text-xl">
                   Blockchain technology like NFTs have unlocked seamless value transfer between anyone, anywhere, creating new opportunities that previously seemed impossible.
                 </p>
                 <p className="mt-4 font-normal text-white sm:text-left text-sm lg:text-justify lg:text-xl">
@@ -88,9 +89,9 @@ export class Content extends Component {
           <div className="container mx-auto flex md:flex-row flex-col items-center px-5 py-8 lg:px-5 lg:py-32">
             <div className="-mx-4 mt-auto mb-auto flex flex-wrap content-start lg:w-1/2">
               <div className="mb-6 w-full px-4 sm:p-4 md:px-8 lg:pl-8 text-left">
-                <h1 className="mt-12 font-sans text-center lg:text-left text-4xl font-bold text-white-lt lg:px-0 lg:text-5xl">Real utility, every week</h1>
-                <p className="mt-6 font-normal text-white sm:text-left text-sm lg:text-justify lg:text-xl">Once activated, the NFT grants you 20 energy bars to use each week to delegate tasks.</p>
-                <p className="mt-4 font-normal text-white sm:text-left text-sm lg:text-justify lg:text-xl">1 energy bar = 30 minutes of PA time, saving you up to 10 hours per week, every week. </p>
+                <h1 className="mt-12  text-center lg:text-left text-4xl font-bold text-white-lt lg:px-0 lg:text-5xl">Real utility, every week</h1>
+                <p className="mt-6 font-normal text-white sm:text-left text-base lg:text-justify lg:text-xl">Once activated, the NFT grants you 20 energy bars to use each week to delegate tasks.</p>
+                <p className="mt-4 font-normal text-white sm:text-left text-base lg:text-justify lg:text-xl">1 energy bar = 30 minutes of PA time, saving you up to 10 hours per week, every week. </p>
               </div>
             </div>
             <div className="mt-6 w-full  rounded-lg sm:mt-0 sm:w-1/3 lg:w-1/2">
@@ -100,7 +101,7 @@ export class Content extends Component {
         </section>
         <section className="tasks body-font bg-purple-content text-gray-600">
           <div className="flex w-full flex-col text-center">
-            <h1 className="mx-8 mt-20 font-sans text-5xl font-bold text-white-lt lg:text-6xl">Type of Tasks</h1>
+            <h1 className="mx-8 mt-20  text-5xl font-bold text-white-lt lg:text-6xl">Types of Tasks</h1>
           </div>
           <div className="container mx-auto px-5 pt-20 pb-16">
             <div className="-m-2 lg:flex lg:flex-wrap">
@@ -161,8 +162,8 @@ export class Content extends Component {
           <div className="container mx-auto flex md:flex-row flex-col items-center px-5 py-8 lg:px-5 lg:py-32">
             <div className="-mx-4 mt-auto mb-auto flex flex-wrap content-start lg:w-1/2">
               <div className="mb-6 w-full px-4 sm:p-4 md:px-12 lg:pl-8 text-left lg:text-left">
-                <h1 className="mt-12 font-sans font-bold text-white-lt lg:px-0 lg:text-5xl text-center text-4xl lg:text-left">Activation</h1>
-                <p className="mt-6 font-normal text-white sm:text-left text-sm lg:text-justify lg:text-xl">
+                <h1 className="mt-12  font-bold text-white-lt lg:px-0 lg:text-5xl text-center text-4xl lg:text-left">Activation</h1>
+                <p className="mt-6 font-normal text-white sm:text-left text-base lg:text-justify lg:text-xl">
                   To activate the energy you must stake 10,000 HDAO tokens (currently $170). As long as HDAO is staked, you can use the energy system and assign tasks weekly. Why stake HDAO? Check out the FAQ below.
                 </p>
               </div>
@@ -174,32 +175,32 @@ export class Content extends Component {
         </section>
         <section className="focus body-font bg-purple-content text-gray-600">
           <div className="container mx-auto flex md:flex-row flex-col items-center px-5 py-8 lg:px-5 lg:py-32">
-            <div className="-mx-4 mt-auto mb-auto flex flex-wrap content-start sm:w-2/3 sm:pr-10 lg:w-1/2">
+            <div className="-mx-4 mt-auto mb-auto flex flex-wrap content-start  lg:w-1/2">
               <div className="mb-6 w-full px-4 sm:p-4 md:px-12 lg:pl-8 text-left lg:text-left">
-                <h1 className="mt-12 font-sans font-bold text-white-lt lg:px-0 lg:text-5xl text-center text-4xl lg:text-left">High-value focus</h1>
-                <p className="mt-6 font-normal text-white sm:text-left text-sm lg:text-justify lg:text-xl">
+                <h1 className="mt-12  font-bold text-white-lt lg:px-0 lg:text-5xl text-center text-4xl lg:text-left">High-value focus</h1>
+                <p className="mt-6 font-normal text-white sm:text-left text-base lg:text-justify lg:text-xl">
                   To spend more time on high-value activities, spend less time on lower-value activities. Make 3 lists that will help you delegate your time more effectively and boost productivity with your NFT PA:{" "}
                 </p>
                 <div className="lg:order-0 order-1 mx-auto w-full px-3">
                   <div className="w-full lg:max-w-md">
                     <ul className="mt-4">
                       <li className="mx-auto inline-flex items-center space-x-4 py-2 lg:text-left xl:py-4">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white md:h-12 md:w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="flex-row h-6 w-6 text-white md:h-12 md:w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
-                        <span className="text-md text-left  font-medium text-white md:text-2xl">Things you hate doing</span>
+                        <span className="flex-row text-md text-left  font-medium text-white md:text-2xl">Things you hate doing</span>
+                      </li>
+                      <li className="flex-row items-center space-x-4 py-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 inline-flex text-white md:h-12 md:w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <span className="inline-flex text-md font-medium text-white md:text-2xl">Things you can't do yourself</span>
                       </li>
                       <li className="inline-flex items-center space-x-4 py-2 xl:py-3">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white md:h-12 md:w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
-                        <span className=" text-md font-medium text-white md:text-2xl">Things you can't do yourself</span>
-                      </li>
-                      <li className="inline-flex items-center space-x-4 py-2 xl:py-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white md:h-12 md:w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                        <span className=" text-md font-medium text-white md:text-2xl">Things you shouldn't be doing</span>
+                        <span className="flex-row text-md font-medium text-white md:text-2xl">Things you shouldn't be doing</span>
                       </li>
                     </ul>
                   </div>
@@ -214,7 +215,7 @@ export class Content extends Component {
         <section className="benefits bg-purple-main text-gray-600 body-font">
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-col text-center w-full">
-              <h1 className="mx-8 mt-20 font-sans text-5xl font-bold text-purple-title lg:text-6xl">Benefits</h1>
+              <h1 className="mx-8 mt-20  text-5xl font-bold text-purple-title lg:text-6xl">Benefits</h1>
             </div>
             <div className="flex flex-wrap -m-4">
               <div className="p-4 md:w-1/3">
@@ -282,18 +283,21 @@ export class Content extends Component {
         </section>
         <section className="range body-font bg-purple-main text-gray-600">
           <div className="flex flex-col text-center w-full">
-            <h1 className="mx-8 mt-20 font-sans text-5xl font-bold text-purple-title lg:text-6xl">Salary Range of PA</h1>
+            <h1 className="mx-8 mt-20  text-5xl font-bold text-purple-title lg:text-6xl">Profound business model</h1>
           </div>
           <div className="container mx-auto flex md:flex-row flex-col items-center px-5 py-8 lg:px-5 lg:py-32">
-            <div className="-mx-4 mt-auto mb-auto flex flex-wrap content-start sm:w-2/3 sm:pr-10 lg:w-1/2">
+            <div className="-mx-4 mt-auto mb-auto flex flex-wrap content-start lg:w-1/2">
               <div className="mb-6 w-full px-4 sm:p-4 md:px-12 lg:pl-8 text-left lg:text-left">
-                <p className="mt-6 mb-6 font-normal text-black sm:text-left text-sm lg:text-justify lg:text-xl">ZipRecruiter, one of the largest recruiting US companies, shows work-from-home Virtual Assistant salary ranges from weekly to monthly.</p>
-                <a className="underline font-normal text-black sm:text-left text-sm lg:text-justify lg:text-xl" href="https://www.ziprecruiter.com/Salaries/Work-From-Home-Virtual-Assistant-Salary" target="_blank" rel="noreferrer">
-                  After a few months, NFT PA literally pays itself off with just a one-time mint.
-                </a>
+                <p className="mt-6 mb-6 font-normal text-black sm:text-left text-base lg:text-justify lg:text-xl">
+                  ZipRecruiter, one of the largest recruiting US companies, shows the work-from-home Virtual Assistant salary ranges from weekly to monthly. While Pocket Assistants are not full-on personal assistants (not yet), the value and business
+                  model is still profound.{" "}
+                </p>
+                <p className="mt-6 mb-6 font-normal text-black sm:text-left text-base lg:text-justify lg:text-xl">
+                  <span className="underline">Even on the low end, after a few months, NFT PA pays itself off with the one-time mint and activation cost.</span> For minting fees, please see FAQ.
+                </p>
               </div>
             </div>
-            <div className="mt-6 w-full  rounded-lg sm:mt-0 sm:w-1/2 lg:w-1/2">
+            <div className="mt-6 w-full  rounded-lg sm:mt-0 lg:w-1/2">
               <div>
                 <div className="p-4 w-full">
                   <div className="w-full h-full flex flex-col items-center">
@@ -308,17 +312,19 @@ export class Content extends Component {
         <section className="resources body-font bg-purple-main text-gray-600">
           <div className="container mx-auto px-5 pb-12 py-24">
             <div className="mb-20 text-center">
-              <h1 className="mx-8 mt-20 font-sans text-5xl font-bold text-purple-title lg:text-6xl">Ready to get more done?</h1>
+              <h1 className="mx-8 mt-20  text-5xl font-bold text-purple-title lg:text-6xl">Ready to get more done?</h1>
             </div>
             <div className="mx-auto w-full lg:w-full lg:max-w-3xl">
               <img className="rounded object-cover object-center" alt="working community" src="https://res.cloudinary.com/daljbo1q0/image/upload/v1652625196/hdao-nft/28_i46bhc.png"></img>
             </div>
-            <a className="mx-auto items-center rounded-lg bg-purple-box py-8 lg:py4 px-5 font-bold text-white hover:bg-purple-box/80 focus:outline-none lg:inline-flex">Join waitlist</a>
+            <a className="mx-auto items-center rounded-lg bg-purple-box py-4 px-5 font-bold text-white hover:bg-purple-box/80 focus:outline-none lg:inline-flex" href="https://forms.gle/D96hyhNDh9DDJAXa8">
+              Join waitlist
+            </a>
           </div>
         </section>
         <section className="FAQs min-w-screen relative bg-purple-main pt-4 pb-16">
           <div className="container mx-auto px-8 sm:px-12 xl:px-5">
-            <h1 className="mx-2 mt-12 font-sans text-5xl font-bold text-purple-title lg:text-6xl">Frequently Asked Questions</h1>
+            <h1 className="mx-2 mt-12  text-5xl font-bold text-purple-title lg:text-6xl">Frequently Asked Questions</h1>
           </div>
           <div className="mx-auto mt-10 w-full text-xs lg:text-base px-6 py-6 text-left sm:px-8 sm:py-8 md:px-12 lg:w-5/6 xl:w-2/3">
             <Accordion>
@@ -355,9 +361,15 @@ export class Content extends Component {
                   .
                 </p>
               </div>
-              <div label="How many NFTS will be available?">
+              <div label="What will it cost to mint?">
                 <p>
                   NFT PA will be very limited. We are expecting to have 500-2000 available for launch, depending on demand from our community to offer these services. There will be scope for additional mints as the DAO grows and we enrol new PAs.
+                </p>
+              </div>
+              <div label="How many NFTS will be available?">
+                <p>
+                  We are still deciding on what kind of launch it will be (whitelist, batch, etc.) Regardless, we need to set a floor value during mint, due to the service attached (different from typical PFPs). That Floor price will be $3,333. The
+                  3’s represent the parties involved—the holder, DAO, and PA. Additionally, we will be lowering the floor price only 1 time for the launch/maiden mint. So join the waitlist.{" "}
                 </p>
               </div>
               <div label="Can I roll over my energy?">

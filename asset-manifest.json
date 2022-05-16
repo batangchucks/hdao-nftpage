@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/hdao-nftpage/static/css/main.2574068a.css",
-    "main.js": "/hdao-nftpage/static/js/main.625ef89d.js",
+    "main.css": "/hdao-nftpage/static/css/main.c7838afe.css",
+    "main.js": "/hdao-nftpage/static/js/main.bad5630d.js",
     "static/js/787.2871f769.chunk.js": "/hdao-nftpage/static/js/787.2871f769.chunk.js",
     "index.html": "/hdao-nftpage/index.html",
-    "main.2574068a.css.map": "/hdao-nftpage/static/css/main.2574068a.css.map",
-    "main.625ef89d.js.map": "/hdao-nftpage/static/js/main.625ef89d.js.map",
+    "main.c7838afe.css.map": "/hdao-nftpage/static/css/main.c7838afe.css.map",
+    "main.bad5630d.js.map": "/hdao-nftpage/static/js/main.bad5630d.js.map",
     "787.2871f769.chunk.js.map": "/hdao-nftpage/static/js/787.2871f769.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2574068a.css",
-    "static/js/main.625ef89d.js"
+    "static/css/main.c7838afe.css",
+    "static/js/main.bad5630d.js"
   ]
 }

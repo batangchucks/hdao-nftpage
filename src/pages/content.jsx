@@ -319,14 +319,80 @@ export class Content extends Component {
         <section className="FAQs min-w-screen relative bg-purple-main pt-4 pb-16">
           <div className="container mx-auto px-8 sm:px-12 xl:px-5">
             <h1 className="mx-2 mt-12 font-sans text-5xl font-bold text-purple-title lg:text-6xl">Frequently Asked Questions</h1>
-            <div className="mx-auto mt-10 w-full rounded-lg border bg-purple-box/70 px-6 py-6 text-justify sm:px-8 sm:py-8 sm:shadow md:px-12 lg:w-5/6 xl:w-2/3">
-              <h3 className="py-4 text-lg font-bold text-white sm:text-xl md:text-3xl">When can I start?</h3>
-              <p className="md:text-normal mt-2 text-base text-white sm:text-lg">
-                The PA program launches sometime in June. But you need to become a certified hDAO PA by passing our Exam. You have plenty of time to learn the material (above) and take the Exam to enter the PA pool and start working when it launches.
-                We highly recommend you complete each of the course links provided. Each link should only take 1-1.5 hrs but knowing this info will help you complete tasks quicker and with higher quality, which means more wages.
-              </p>
-              <p className="md:text-normal mt-6 text-base text-white sm:text-lg">Also, please tell your family and friends. They can all benefit and earn as a PA as these skills can be learned within a week.</p>
-            </div>
+          </div>
+          <div className="mx-auto mt-10 w-full rounded-lg border bg-purple-box/70 px-6 py-6 text-justify sm:px-8 sm:py-8 sm:shadow md:px-12 lg:w-5/6 xl:w-2/3">
+            <Accordion>
+              <div label="Is this a personal assistant?">
+                <p>No. All tasks go to a pool of available PAs. You will have many PAs fulfilling your acceptable tasks.</p>
+              </div>
+              <div label="What are acceptable tasks?">
+                <p>
+                  As the examples above show, pretty much anything beginning with Find, Collect, Make, Add, or Search. You will not have the same PA for all your tasks. Thus, anything requiring privileged info (email, Amazon, bank login) will not
+                  work. Stick to research and data entry, and you will be fine. We are looking to expand acceptable tasks in the future.
+                </p>
+              </div>
+              <div label="Where do these PAs come from?">
+                <p>
+                  From underserved communities all over the world. In less than 6 months our community has grown to over 50k members strong. Our community is very young (70% is younger than 25 y.o.) and come from low economic backgrounds. But they
+                  are connected to the internet, ambitious and hungry for opportunity to earn wages. Being a PA is like being an Uber driver in that it is gig work.
+                </p>
+                <p className="mt-4">
+                  Join our community ​
+                  <span>
+                    <a className="underline" href="https://discord.com/invite/humandao" target="_blank" rel="noreferrer">
+                      here
+                    </a>
+                  </span>
+                  .{" "}
+                </p>
+                <p className="mt-4">
+                  Learn about us ​
+                  <span className="underline">
+                    <a href="https://docs.humandao.org" target="_blank" rel="noreferrer">
+                      here
+                    </a>
+                  </span>
+                  .
+                </p>
+              </div>
+              <div label="How many NFTS will be available?">
+                <p>
+                  NFT PA will be very limited. We are expecting to have 500-2000 available for launch, depending on demand from our community to offer these services. There will be scope for additional mints as the DAO grows and we enrol new PAs.
+                </p>
+              </div>
+              <div label="Can I roll over my energy?">
+                <p>Energy not used does NOT roll over to the following week. But your 20 energies will reload every week (as long as HDAO is staked).</p>
+              </div>
+              <div label="Why do we have to stake HDAO?">
+                <p>Activating the NFT by staking $HDAO helps us forecast demand for the PAs and ensure enough resources are available to complete tasks quickly.</p>
+                <p className="mt-4">
+                  Holding and using $HDAO also benefits the underserved communities that make up the humanDAO, grants staking rewards (get more $HDAO), and you can participate in governance as a true DAO member.{" "}
+                  <span className="underline">
+                    <a href="https://app.humandao.org/dashboard" target="_blank" rel="noreferrer">
+                      Visit our Dashboard here for more metrics on the DAO.
+                    </a>
+                  </span>
+                </p>
+              </div>
+              <div label="Can I share my energy with family or friends?">
+                <p>
+                  Sure. There are no account details or personal info needed thanks to blockchain tech. The NFT, when activated, can be used by anyone with access to the address. You can create an address solely for NFT PA and share your keys with
+                  trusted individuals.
+                </p>
+              </div>
+              <div label="Why is there a 30% royalty on secondary sales?">
+                <p>
+                  Unlike artistic NFTs and PFP projects, NFT PA is a utility token actively managed by the DAO. Secondary sales royalties contribute to these ongoing costs and the sustainability of the DAO, enabling us to build more services and
+                  products to benefit underserved communities and achieve our goal of improving lives through crypto.
+                </p>
+              </div>
+              <div label="What is the rental market?">
+                <p>
+                  We plan on creating a rental market for energy. NFT PA holders will be able to loan out weekly energy if/when they are unable to use it themselves, earning a fee. It’s a great way to make a few dollars and make the most of your
+                  purchase.
+                </p>
+              </div>
+            </Accordion>
           </div>
         </section>
       </div>

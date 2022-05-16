@@ -6,9 +6,9 @@ export class Header extends Component {
       <div>
         <header className="body-font bg-purple-main text-gray-600">
           <div className="container mx-auto flex flex-col flex-wrap items-center pt-5 pl-7 lg:pl-0 md:flex-row">
-            <a className="title-font mb-4 md:ml-8 flex items-center font-medium text-gray-900 md:mb-0">
-              <img className="w-5 h-10 lg:h-10 lg:w-10" src="https://secureservercdn.net/198.71.233.86/cb6.757.myftpupload.com/wp-content/uploads/2021/12/HDAO-60x60-72dpi-1.svg?time=1651670863"></img>
-              <span className="ml-1 text-xl lg:text-lg font-semibold">NFT Pocket Assistant</span>
+            <a className="title-font mb-4 lg:ml-8 flex items-center font-medium text-gray-900 md:mb-0">
+              <img className="w-8 h-8 lg:h-10 lg:w-10" src="https://secureservercdn.net/198.71.233.86/cb6.757.myftpupload.com/wp-content/uploads/2021/12/HDAO-60x60-72dpi-1.svg?time=1651670863"></img>
+              <span className="ml-1 text-3xl lg:text-lg font-semibold">NFT Pocket Assistant</span>
             </a>
             <nav className="flex flex-wrap items-center justify-center text-base md:ml-auto">
               <a className="mt-4 inline-flex items-center rounded-lg bg-purple-box py-2 px-3 text-base font-bold text-white hover:bg-purple-box/80 focus:outline-none md:mt-0 mr-4" target="_blank" rel="noreferrer" href="https://humandao.org/">

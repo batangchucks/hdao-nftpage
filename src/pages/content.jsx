@@ -35,6 +35,12 @@ export class Content extends Component {
               </p>
             </div>
 
+            <div className="w-48 mx-auto sm:hidden lg:hidden">
+              <div className="px-4 py-6 rounded-lg">
+                <img src="https://res.cloudinary.com/daljbo1q0/image/upload/v1652688154/hdao-nft/13_ytevpe.png"></img>
+              </div>
+            </div>
+
             <div>
               <img className="hidden md:block lg:block lg:w-full" src="https://res.cloudinary.com/daljbo1q0/image/upload/v1652700769/hdao-nft/test_ydbuns.png"></img>
             </div>
@@ -371,13 +377,13 @@ export class Content extends Component {
                   .
                 </p>
               </div>
-              <div label="How many NFTS will be available?">
+              <div label="What will it cost to mint?">
                 <p>
                   We are still deciding on what kind of launch it will be (whitelist, batch, etc.) Regardless, we need to set a floor value during mint, due to the service attached (different from typical PFPs). That Floor price will be $3,333. The
                   3’s represent the parties involved—the holder, DAO, and PA. Additionally, we will be lowering the floor price only 1 time for the launch/maiden mint. So join the waitlist.{" "}
                 </p>
               </div>
-              <div label="What will it cost to mint?">
+              <div label="How many NFTS will be available?">
                 <p>
                   NFT PA will be very limited. We are expecting to have 500-2000 available for launch, depending on demand from our community to offer these services. There will be scope for additional mints as the DAO grows and we enrol new PAs.
                 </p>

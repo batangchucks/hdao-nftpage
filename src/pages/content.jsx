@@ -5,9 +5,9 @@ export class Content extends Component {
   render() {
     return (
       <div>
-        <section className="hero body-font bg-purple-main">
+        <section className="hero body-font bg-purple-main pt-24">
           <div className="container mx-auto flex md:flex-row flex-col items-center px-5 py-8 lg:px-5 lg:py-32">
-            <div className="-mx-4 mt-auto mb-auto flex flex-wrap content-start lg:w-1/2">
+            <div className="-mx-4 mt-auto mb-auto flex flex-wrap content-start md:w-2/3  lg:w-1/2">
               <div className="mb-6 w-full px-4 sm:p-4 lg:pl-8 lg:text-left">
                 <h1 className="title-font mx-auto mb-2 text-5xl font-extrabold text-purple-title text-center lg:text-left lg:text-6xl">A uniquely human NFT</h1>
                 <h2 className="title-font mx-auto mb-2 text-lg font-extrabold text-black/80 text-center lg:text-left lg:text-2xl">Launching June/July</h2>
@@ -21,8 +21,8 @@ export class Content extends Component {
                 </p>
               </div>
             </div>
-            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mx-auto">
-              <img className="h-full w-full object-contain object-center" src="https://res.cloudinary.com/daljbo1q0/image/upload/v1652625197/hdao-nft/12_vnujwh.png" alt="man with many arms"></img>
+            <div className="lg:max-w-lg lg:w-full md:pt-8 w-5/6 mx-auto">
+              <img className="h-full w-full object-contain object-center" src="https://res.cloudinary.com/daljbo1q0/image/upload/v1652719326/hdao-nft/12_vnujwh.png" alt="man with many arms"></img>
             </div>
           </div>
         </section>
@@ -69,7 +69,7 @@ export class Content extends Component {
         </section>
         <section className="features-1 body-font bg-purple-content text-gray-600">
           <div className="container mx-auto flex md:flex-row flex-col items-center px-5 py-8 lg:px-5 lg:py-32">
-            <div className="-mx-4 mt-auto mb-auto flex flex-wrap content-start lg:w-1/2">
+            <div className="-mx-4 mt-auto mb-auto flex flex-wrap content-start md:2/3 lg:w-1/2">
               <div className="mb-6 w-full px-4 sm:p-4 md:px-8 lg:pl-8 text-left">
                 <h1 className="mt-12 lg:text-left text-4xl font-bold text-center text-white-lt lg:px-0 lg:text-5xl">Help those in need and get your time back</h1>
                 <p className="mt-6 font-normal text-white sm:text-left text-base lg:text-justify lg:text-xl">
@@ -80,21 +80,21 @@ export class Content extends Component {
                 </p>
               </div>
             </div>
-            <div className="mt-6 w-full  rounded-lg sm:mt-0 sm:w-1/3 lg:w-1/2">
+            <div className="lg:max-w-lg lg:w-full md:pt-24 w-3/4 mx-auto">
               <img className="h-full w-full object-contain object-center" src="https://res.cloudinary.com/daljbo1q0/image/upload/v1652676413/hdao-nft/18_e3cnxw.png" alt="heart"></img>
             </div>
           </div>
         </section>
         <section className="features-2 body-font bg-purple-content text-gray-600">
           <div className="container mx-auto flex md:flex-row flex-col items-center px-5 py-8 lg:px-5 lg:py-32">
-            <div className="-mx-4 mt-auto mb-auto flex flex-wrap content-start lg:w-1/2">
+            <div className="-mx-4 mt-auto mb-auto flex flex-wrap content-start md:2/3 lg:w-1/2">
               <div className="mb-6 w-full px-4 sm:p-4 md:px-8 lg:pl-8 text-left">
                 <h1 className="mt-12  text-center lg:text-left text-4xl font-bold text-white-lt lg:px-0 lg:text-5xl">Real utility, every week</h1>
                 <p className="mt-6 font-normal text-white sm:text-left text-base lg:text-justify lg:text-xl">Once activated, the NFT grants you 20 energy bars to use each week to delegate tasks.</p>
                 <p className="mt-4 font-normal text-white sm:text-left text-base lg:text-justify lg:text-xl">1 energy bar = 30 minutes of PA time, saving you up to 10 hours per week, every week. </p>
               </div>
             </div>
-            <div className="mt-6 w-full  rounded-lg sm:mt-0 sm:w-1/3 lg:w-1/2">
+            <div className="lg:max-w-lg lg:w-full md:pt-24 w-3/4 mx-auto">
               <img className="h-full w-full object-contain object-center" src="https://res.cloudinary.com/daljbo1q0/image/upload/v1652676914/hdao-nft/19_yhdazc.png" alt="lightning with clock"></img>
             </div>
           </div>
@@ -160,23 +160,23 @@ export class Content extends Component {
         </section>
         <section className="activation body-font bg-purple-content text-gray-600">
           <div className="container mx-auto flex md:flex-row flex-col items-center px-5 py-8 lg:px-5 lg:py-32">
-            <div className="-mx-4 mt-auto mb-auto flex flex-wrap content-start lg:w-1/2">
-              <div className="mb-6 w-full px-4 sm:p-4 md:px-12 lg:pl-8 text-left lg:text-left">
+            <div className="-mx-4 mt-auto mb-auto flex flex-wrap content-start md:2/3 lg:w-1/2">
+              <div className="mb-6 w-full px-4 sm:p-4 md:px-8 lg:pl-8 text-left">
                 <h1 className="mt-12  font-bold text-white-lt lg:px-0 lg:text-5xl text-center text-4xl lg:text-left">Activation</h1>
                 <p className="mt-6 font-normal text-white sm:text-left text-base lg:text-justify lg:text-xl">
                   To activate the energy you must stake 10,000 HDAO tokens (currently $170). As long as HDAO is staked, you can use the energy system and assign tasks weekly. Why stake HDAO? Check out the FAQ below.
                 </p>
               </div>
             </div>
-            <div className="mt-6 w-full  rounded-lg sm:mt-0 sm:w-1/3 lg:w-1/2">
+            <div className="lg:max-w-lg lg:w-full md:pt-24 w-3/4 mx-auto">
               <img className="h-full w-full object-contain object-center" src="https://res.cloudinary.com/daljbo1q0/image/upload/v1652625195/hdao-nft/20_airlpg.png" alt="lightning with clock"></img>
             </div>
           </div>
         </section>
         <section className="focus body-font bg-purple-content text-gray-600">
           <div className="container mx-auto flex md:flex-row flex-col items-center px-5 py-8 lg:px-5 lg:py-32">
-            <div className="-mx-4 mt-auto mb-auto flex flex-wrap content-start  lg:w-1/2">
-              <div className="mb-6 w-full px-4 sm:p-4 md:px-12 lg:pl-8 text-left lg:text-left">
+            <div className="-mx-4 mt-auto mb-auto flex flex-wrap content-start md:2/3 lg:w-1/2">
+              <div className="mb-6 w-full px-4 sm:p-4 md:px-8 lg:pl-8 text-left">
                 <h1 className="mt-12  font-bold text-white-lt lg:px-0 lg:text-5xl text-center text-4xl lg:text-left">High-value focus</h1>
                 <p className="mt-6 font-normal text-white sm:text-left text-base lg:text-justify lg:text-xl">
                   To spend more time on high-value activities, spend less time on lower-value activities. Make 3 lists that will help you delegate your time more effectively and boost productivity with your NFT PA:{" "}
@@ -207,7 +207,7 @@ export class Content extends Component {
                 </div>
               </div>
             </div>
-            <div className="mt-6 w-full  rounded-lg sm:mt-0 sm:w-1/3 lg:w-1/2">
+            <div className="lg:max-w-lg lg:w-full md:pt-24 w-3/4 mx-auto">
               <img className="h-full w-full object-contain object-center" src="https://res.cloudinary.com/daljbo1q0/image/upload/v1652625195/hdao-nft/21_tdndfg.png" alt="lightning with clock"></img>
             </div>
           </div>
@@ -286,18 +286,28 @@ export class Content extends Component {
             <h1 className="mx-8 mt-20  text-5xl font-bold text-purple-title lg:text-6xl">Profound business model</h1>
           </div>
           <div className="container mx-auto flex md:flex-row flex-col items-center px-5 py-8 lg:px-5 lg:py-32">
-            <div className="-mx-4 mt-auto mb-auto flex flex-wrap content-start lg:w-1/2">
+            <div className="-mx-4 mt-auto mb-auto flex flex-wrap content-start md:w-2/3 lg:w-1/2">
               <div className="mb-6 w-full px-4 sm:p-4 md:px-12 lg:pl-8 text-left lg:text-left">
                 <p className="mt-6 mb-6 font-normal text-black sm:text-left text-base lg:text-justify lg:text-xl">
                   ZipRecruiter, one of the largest recruiting US companies, shows the work-from-home Virtual Assistant salary ranges from weekly to monthly. While Pocket Assistants are not full-on personal assistants (not yet), the value and business
                   model is still profound.{" "}
                 </p>
+                <div className="lg:hidden mt-6 w-full md:hidden rounded-lg sm:mt-0 lg:w-1/2">
+                  <div>
+                    <div className="p-4 w-full">
+                      <div className="w-full h-full flex flex-col items-center">
+                        <img className="rounded-lg w-full h-full object-center sm:mb-0 mb-4" src="https://res.cloudinary.com/daljbo1q0/image/upload/v1652685911/hdao-nft/29_yfp0ea.png"></img>
+                        <img className="rounded-lg w-full h-full  object-center sm:mb-0 mb-4" src="https://res.cloudinary.com/daljbo1q0/image/upload/v1652685911/hdao-nft/30_iuubzl.png"></img>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <p className="mt-6 mb-6 font-normal text-black sm:text-left text-base lg:text-justify lg:text-xl">
                   <span className="underline">Even on the low end, after a few months, NFT PA pays itself off with the one-time mint and activation cost.</span> For minting fees, please see FAQ.
                 </p>
               </div>
             </div>
-            <div className="mt-6 w-full  rounded-lg sm:mt-0 lg:w-1/2">
+            <div className="mt-6 w-full hidden md:block lg:block rounded-lg sm:mt-0 lg:w-1/2">
               <div>
                 <div className="p-4 w-full">
                   <div className="w-full h-full flex flex-col items-center">
@@ -361,15 +371,15 @@ export class Content extends Component {
                   .
                 </p>
               </div>
-              <div label="What will it cost to mint?">
-                <p>
-                  NFT PA will be very limited. We are expecting to have 500-2000 available for launch, depending on demand from our community to offer these services. There will be scope for additional mints as the DAO grows and we enrol new PAs.
-                </p>
-              </div>
               <div label="How many NFTS will be available?">
                 <p>
                   We are still deciding on what kind of launch it will be (whitelist, batch, etc.) Regardless, we need to set a floor value during mint, due to the service attached (different from typical PFPs). That Floor price will be $3,333. The
                   3’s represent the parties involved—the holder, DAO, and PA. Additionally, we will be lowering the floor price only 1 time for the launch/maiden mint. So join the waitlist.{" "}
+                </p>
+              </div>
+              <div label="What will it cost to mint?">
+                <p>
+                  NFT PA will be very limited. We are expecting to have 500-2000 available for launch, depending on demand from our community to offer these services. There will be scope for additional mints as the DAO grows and we enrol new PAs.
                 </p>
               </div>
               <div label="Can I roll over my energy?">

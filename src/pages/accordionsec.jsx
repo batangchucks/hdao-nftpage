@@ -24,22 +24,41 @@ class AccordionSection extends React.Component {
         style={{
           background: isOpen ? "#e8e2ff" : "#e8e2ff",
           border: "1px solid #7b66d4",
-          padding: "5px 10px",
+          padding: "15px 10px",
+          margin: "20px",
+          background: "#543eb6",
+          color: "white",
+          fontWeight: "bold",
+          borderRadius: "5px",
         }}
       >
         <div onClick={onClick} style={{ cursor: "pointer" }}>
           {label}
           <div style={{ float: "right" }}>
-            {!isOpen && <span>&#9650;</span>}
-            {isOpen && <span>&#9660;</span>}
+            {!isOpen && (
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </span>
+            )}
+            {isOpen && (
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
+                </svg>
+              </span>
+            )}
           </div>
         </div>
         {isOpen && (
           <div
             style={{
-              background: "#e8e2ff",
               marginTop: 10,
               padding: "10px 20px",
+              background: "#543eb6",
+              color: "white",
+              fontWeight: "normal",
             }}
           >
             {this.props.children}
